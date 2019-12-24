@@ -108,8 +108,8 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Infomation',
-          to: '/info'
+          title: 'Account list',
+          to: '/account'
         }
       ],
       miniVariant: false,
