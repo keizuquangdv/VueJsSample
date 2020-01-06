@@ -1,23 +1,4 @@
 <template>
-  <!-- <v-layout>
-    <v-flex class="text-center">
-		<div class="container">
-			<h1>{{ title }}</h1>
-			<ul>
-				<li v-for="(acc, index) in accountLst" :key="index">
-					<NuxtLink :to="{ name: 'account-detail', params: { id: acc.id } }">
-					{{ acc.name }}
-					</NuxtLink>
-				</li>
-			</ul>
-			<p>
-			<NuxtLink to="/">
-				Back to home page
-			</NuxtLink>
-			</p>
-		</div>
-    </v-flex>
-  </v-layout> -->
   	<div>
 		<v-data-table
 			:headers="headers"
@@ -95,6 +76,7 @@ export default {
 </script>
 
 <style scoped>
+
 .container {
   width: 70%;
   margin: auto;
